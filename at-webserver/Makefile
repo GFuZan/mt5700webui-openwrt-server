@@ -12,7 +12,7 @@ define Package/at-webserver
   SECTION:=net
   CATEGORY:=Network
   TITLE:=AT Command WebSocket Server
-  DEPENDS:=+python3 +python3-asyncio +python3-websockets +python3-pyserial +python3-aiohttp
+  DEPENDS:=+usbutils +python3 +python3-asyncio +python3-websockets +python3-pyserial +python3-aiohttp
   PKGARCH:=all
 endef
 
